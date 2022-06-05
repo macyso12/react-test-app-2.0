@@ -9,29 +9,31 @@ function Navigation() {
   const [open, setOpen] = useState(false);
   return (
     <div>
-      <nav>
+      <div className="header">
         <a className="siteName" href="/">
-          Site Name
+          My Portfolio Template
         </a>
-        <ul
-          className="navLinks"
-          style={{transform: open ? 'translateX(0px)' : ''}}
-        >
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="about">About</a>
-          </li>
-          <li>
-            <a href="experience">Experience</a>
-          </li>
-          <li>
-            <a href="contact">Contact</a>
-          </li>
-        </ul>
+        <nav>
+          <ul
+            className="navLinks"
+            style={{transform: open ? 'translateX(0px)' : ''}}
+          >
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="about">About</a>
+            </li>
+            <li>
+              <a href="experience">Experience</a>
+            </li>
+            <li>
+              <a href="contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
         <i onClick={() => setOpen(!open)} className="fa-solid fa-bars burger" />
-      </nav>
+      </div>
     </div>
   );
 }
