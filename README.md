@@ -45,6 +45,6 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-##Progress
-June 4 - Created React Application
+##Progress\
+June 4 - Created React Application\
 June 5 - Created Header + Hamburger menu function
