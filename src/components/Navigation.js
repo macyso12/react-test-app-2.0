@@ -1,24 +1,38 @@
-import React from 'react';
-import {Link} from 'react-router-dom';
+import React, {useState} from 'react';
+//import {Link} from 'react-router-dom';
+import './style.css';
+
+//className="navLinks" style=
+//</nav>{{transform: open ? 'translateX (0px)' : ''}}>
 
 function Navigation() {
+  const [open, setOpen] = useState(false);
   return (
-    <header className="header">
-      <div className="siteName">Site Name</div>
+    <div>
       <nav>
-        <ul>
-          <li className="">
-            <Link to="/">Home</Link>
+        <a className="siteName" href="/">
+          Site Name
+        </a>
+        <ul
+          className="navLinks"
+          style={{transform: open ? 'translateX(0px)' : ''}}
+        >
+          <li>
+            <a href="/">Home</a>
           </li>
           <li>
-            <Link to="about">Academics</Link>
+            <a href="about">About</a>
           </li>
           <li>
-            <Link to="experience">Money Matters</Link>
+            <a href="experience">Experience</a>
+          </li>
+          <li>
+            <a href="contact">Contact</a>
           </li>
         </ul>
+        <i onClick={() => setOpen(!open)} className="fa-solid fa-bars burger" />
       </nav>
-    </header>
+    </div>
   );
 }
 
