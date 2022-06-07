@@ -68,6 +68,10 @@ nav .navLinks a:visited {
     color: black;
 }
 
+.navLinks:visited {
+    color: black;
+}
+
 nav .navLinks a:hover {
     border-bottom: 1px black solid;
 }
