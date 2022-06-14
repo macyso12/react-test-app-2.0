@@ -48,6 +48,6 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ## Progress Journal
 
 June 4 - Created React Application\
-June 5 - Created Header + Hamburger menu function
-June 10 - Created Pages Components
+June 5 - Created Header + Hamburger menu function\
+June 10 - Created Pages Components\
 June 14 - Update Router Functions + Pages Components
