@@ -49,3 +49,5 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 June 4 - Created React Application\
 June 5 - Created Header + Hamburger menu function
+June 10 - Created Pages Componenets
+June 14 - Update Router Functions + Pages Componenets
