@@ -76,6 +76,10 @@ nav .navLinks a:hover {
     border-bottom: 1px black solid;
 }
 
+nav .navLinks a:active {
+    border-bottom: 1px black solid;
+}
+
 .burger {
     font-size: 20px;
     display: none;

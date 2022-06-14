@@ -1,12 +1,12 @@
 import Navigation from '../Navigation';
 import React from 'react';
-import Home from '../../pages/home';
+import Content from '../../navigation/Content';
 
 function Layout() {
   return (
     <div>
       <Navigation />
-      <Home />
+      <Content />
     </div>
   );
 }
